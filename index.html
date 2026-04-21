@@ -7,90 +7,77 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
-<header class="navbar">
 
-  <!-- LEFT -->
-  <div class="nav-left">
-    <img src="./image2/logo.png" alt="logo">
-    
-  </div>
-
-  <!-- MIDDLE -->
-  <div class="nav-middle">
-
-    <nav class="nav-links">
-      <a href="#">HOME</a>
-      <a href="#">ABOUT</a>
-      <a href="#">SERVICE</a>
-      <a href="#">BLOG</a>
-      <a href="#">CONTACT</a>
-    </nav>
-
-    <div class="nav-icons">
-      <img src="./image2/facebook (2).png" alt="">
-      <img src="./image2/instagram-logo.png" alt="">
-      <img src="./image2/linkedin (1).png" alt="">
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="nav-left">
+      <img src="./image2/logo.png" alt="logo">
     </div>
 
-  </div>
+    <div class="nav-middle">
+      <nav class="nav-links">
+        <a href="#">HOME</a>
+        <a href="#">ABOUT</a>
+        <a href="#">SERVICE</a>
+        <a href="#">BLOG</a>
+        <a href="#">CONTACT</a>
+      </nav>
 
-  <!-- RIGHT -->
-  <div class="nav-right">
-    <img src="./image2/headphone (1).png " alt="">
-    <span>10 (87) 237 3784</span>
-  </div>
-
-</header>
-
-<!--hero section-->
-<section class="hero">
-
-  <!-- overlay -->
-  <div class="hero-overlay"></div>
-
-  <div class="hero-content">
-
-    <!-- LEFT TEXT -->
-    <div class="hero-text">
-      <p class="welcome">WELCOME TO LOGISTICO</p>
-      <h1>A TRULY GLOBAL <br> SERVICE PROVIDER</h1>
-      <p class="sub-text">We make your cargo transport simple</p>
+      <div class="nav-icons">
+        <img src="./image2/facebook (2).png" alt="facebook">
+        <img src="./image2/instagram-logo.png" alt="instagram">
+        <img src="./image2/linkedin (1).png" alt="linkedin">
+      </div>
     </div>
 
-    <!-- RIGHT FORM -->
-    <div class="hero-form">
-      <h3>Get a quick offer</h3>
-      <p>We make your cargo transport simple</p>
-
-      <form>
-        <label>TRUCKLOAD</label>
-        <select>
-          <option>Select</option>
-          <option>Category 1</option>
-          <option>Category 2</option>
-          <option>Category 3</option>
-        </select>
-
-        <label>COMMODITY</label>
-        <select>
-          <option>Select</option>
-          <option>Year</option>
-          <option>Week</option>
-          <option>Day 3</option>
-        </select>
-
-        <label>DISTANCE (MILES)</label>
-        <input type="text" placeholder="Enter distance">
-
-        <p class="form_p">Estimate Cost: <span class="form_ps">$10,400.00</span></p>
-      </form>
+    <div class="nav-right">
+      <img src="./image2/headphone (1).png" alt="headphone">
+      <span>10 (87) 237 3784</span>
     </div>
+  </header>
 
-  </div>
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-overlay"></div>
 
-</section>
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="welcome">WELCOME TO LOGISTICO</p>
+        <h1>A TRULY GLOBAL <br> SERVICE PROVIDER</h1>
+        <p class="sub-text">We make your cargo transport simple</p>
+      </div>
 
+      <div class="hero-form">
+        <h3>Get a quick offer</h3>
+        <p>We make your cargo transport simple</p>
+
+        <form>
+          <label for="truckload">TRUCKLOAD</label>
+          <select id="truckload">
+            <option>Select</option>
+            <option>Category 1</option>
+            <option>Category 2</option>
+            <option>Category 3</option>
+          </select>
+
+          <label for="commodity">COMMODITY</label>
+          <select id="commodity">
+            <option>Select</option>
+            <option>Year</option>
+            <option>Week</option>
+            <option>Day 3</option>
+          </select>
+
+          <label for="distance">DISTANCE (MILES)</label>
+          <input type="text" id="distance" placeholder="Enter distance">
+
+          <p class="form_p">Estimate Cost: <span class="form_ps">$10,400.00</span></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLEANING / SERVICES SECTION -->
   <section class="cleaning_section">
     <div class="cleaning_section1">
       <img src="./image2/services1.svg" alt="" class="clean_sec_img">
@@ -100,18 +87,17 @@
       </p>
       <img src="./image2/arrow-right.png" alt="arrow-right" class="arrow-right">
     </div>
-    
-       <div class="cleaning_section1">
-      <img src="./image2/services2.svg" alt=""  class="clean_sec_img">
-      <h5  class="clean_sec_h5">Commercial Cleaning</h5>
+
+    <div class="cleaning_section1">
+      <img src="./image2/services2.svg" alt="" class="clean_sec_img">
+      <h5 class="clean_sec_h5">Commercial Cleaning</h5>
       <p class="clean_sec_p">
         Ullamcorper scelerisque congue purus aenean blandit. Interdum euismod sodales adipiscing placerat quam neque libero.
       </p>
       <img src="./image2/arrow-right.png" alt="arrow-right" class="arrow-right">
     </div>
-    </div>
-    
-       <div class="cleaning_section1">
+
+    <div class="cleaning_section1">
       <img src="./image2/services3.svg" alt="" class="clean_sec_img">
       <h5 class="clean_sec_h5">Commercial Cleaning</h5>
       <p class="clean_sec_p">
@@ -119,9 +105,8 @@
       </p>
       <img src="./image2/arrow-right.png" alt="arrow-right" class="arrow-right">
     </div>
-    </div>
-    
-       <div class="cleaning_section1">
+
+    <div class="cleaning_section1">
       <img src="./image2/services4.svg" alt="" class="clean_sec_img">
       <h5 class="clean_sec_h5">Commercial Cleaning</h5>
       <p class="clean_sec_p">
@@ -129,14 +114,12 @@
       </p>
       <img src="./image2/arrow-right.png" alt="arrow-right" class="arrow-right">
     </div>
-    </div>
   </section>
 
-  <!--about section-->
+  <!-- ABOUT SECTION -->
   <section class="about_section">
-    <!--left colum-->
     <div class="about_div1"></div>
-    <!--right colum-->
+
     <div class="about_dive2">
       <h6 class="about_6">About Us</h6>
       <h5 class="about_5">A professional transportation business</h5>
@@ -144,219 +127,206 @@
         Sometimes goods can arrive early when they are being brought into the country. Quisque sed molestie nisl. Integer consequat risus.
       </p>
       <p class="about_p">
-        Quisque sed molestie nisl. Integer consequat risus. With over 80 trucks in our fleet, road transport is our speciality and best freight option
+        Quisque sed molestie nisl. Integer consequat risus. With over 80 trucks in our fleet, road transport is our speciality and best freight option.
       </p>
+
       <hr>
+
       <div class="road_div">
-        <p class="road_p">Road Transport</p>
-        <img src="./image2/arrow-down.png" alt="angle-up" class="sea_cargo_img">
+        <p>Road Transport</p>
+        <img src="./image2/arrow-down.png" alt="arrow-down" class="sea_cargo_img">
       </div>
-      
+
       <hr>
+
       <div class="road_div">
-        <p class="Sea_Cargo_p">Sea Cargo</p>
-        <img src="./image2/arrow-down.png" alt="angle-up" class="sea_cargo_img">
+        <p>Sea Cargo</p>
+        <img src="./image2/arrow-down.png" alt="arrow-down" class="sea_cargo_img">
       </div>
+
       <hr>
     </div>
   </section>
 
-  <!--mission section-->
+  <!-- MISSION SECTION -->
   <section class="misssion_section">
-   
-    <!--left colum-->
     <div class="mission_dive1">
       <h6 class="about_6">Our Mission</h6>
       <p class="mission_p">
-        "We are able to handle any size load, to-and-from anywhere and within any service time frame has made you our best and bring to the table win-win..
+        We are able to handle any size load, to-and-from anywhere and within any service time frame has made you our best and bring to the table win-win.
       </p>
+
       <button class="learn_more_button">
         <div class="learn_more_div">
-          <p class="learn_more_p">Learn More</p>
+          <span class="learn_more_p">Learn More</span>
           <img src="./image2/right-chevron.png" alt="right-chevron" class="right-chevron">
         </div>
-        </button>
+      </button>
     </div>
-     <!--right colum-->
+
     <div class="mission_div2a"></div>
   </section>
 
-   <!--shipment section-->
+  <!-- SHIPMENT SECTION -->
   <section class="shipment_section">
-    <!--left colum-->
     <div class="shipment_div1"></div>
 
-    <!--right colum-->
     <div class="shipment_dive2">
       <h6 class="shipment_6">
         We give you complete control of your shipments.
       </h6>
 
-     <div class="logistic_div1">
-      <p class="logistic_div_p">01</p>
-      <h3 class="logistic_div_h3">Logistic Solution</h3>
-      <p class="logistic_div_pp">Praesent eu rhoncus nibh. Quisque tincidunt, nisi in enetis</p>
-      <p class="logistic_div_ppp">commodo, neque quam pharetra dolor, nec lacinia.</p>
-     </div>
+      <div class="logistic_div1">
+        <p class="logistic_div_p">01</p>
+        <h3 class="logistic_div_h3">Logistic Solution</h3>
+        <p class="logistic_div_pp">
+          Praesent eu rhoncus nibh. Quisque tincidunt, nisi in enetis commodo, neque quam pharetra dolor, nec lacinia.
+        </p>
+      </div>
 
-     <div class="logistic_div2">
-      <p class="logistic_div_p">01</p>
-      <h3 class="logistic_div_h3">Logistic Solution</h3>
-      <p class="logistic_div_pp">Praesent eu rhoncus nibh. Quisque tincidunt, nisi in enetis</p>
-      <p class="logistic_div_ppp">commodo, neque quam pharetra dolor, nec lacinia.</p>
-     </div>
-
+      <div class="logistic_div2">
+        <p class="logistic_div_p">02</p>
+        <h3 class="logistic_div_h3">Logistic Solution</h3>
+        <p class="logistic_div_pp">
+          Praesent eu rhoncus nibh. Quisque tincidunt, nisi in enetis commodo, neque quam pharetra dolor, nec lacinia.
+        </p>
+      </div>
     </div>
   </section>
 
-   <!--help section-->
+  <!-- HELP SECTION -->
   <section class="help_section">
     <div class="help_container">
       <div class="help_div">
-      <h4 class="help_div_h4">Need Help? Get Free quote!</h4>
-      <p class="help_div_p">Praesent eu rhoncus nibh. Quisque tincidunt, nisi in enetis</p>
-    </div>
-    <div learn_more_div2>
-      <button class="learn_more_button2">
-        <div class="learn_more_div2">
-          <p class="learn_more_p2">Learn More</p>
-          <img src="./image2/right-arrow-angle.png" alt="right-chevron" class="right-chevron2">
-        </div>
+        <h4 class="help_div_h4">Need Help? Get Free quote!</h4>
+        <p class="help_div_p">Praesent eu rhoncus nibh. Quisque tincidunt, nisi in enetis</p>
+      </div>
+
+      <div class="help_btn_wrap">
+        <button class="learn_more_button2">
+          <div class="learn_more_div2">
+            <span class="learn_more_p2">Learn More</span>
+            <img src="./image2/right-arrow-angle.png" alt="right-chevron" class="right-chevron2">
+          </div>
         </button>
+      </div>
     </div>
-  </div>
-    
   </section>
 
-    <!--Client Testimonial-->
+  <!-- TESTIMONIAL SECTION -->
   <section class="testimonial_section">
-   
-    <!--left colum-->
     <div class="testimonial_div1">
       <h6 class="testimonial_6">Our Mission</h6>
       <p class="testimonial_p">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, et enim? Corrupti fugiat, odio reiciendis eos minus esse molestiae exercitationem provident perspiciatis aut facere doloribus?
       </p>
+
       <div class="founder_div">
-        <div><img src="./image2/founder-img.png" alt="" class="founder_image"></div>
+        <div>
+          <img src="./image2/founder-img.png" alt="founder" class="founder_image">
+        </div>
         <div>
           <h2 class="founder_h2">Graham Cracker</h2>
           <p class="founder_p">Designer at Colorlib</p>
         </div>
       </div>
     </div>
-     <!--right colum-->
+
     <div class="mission_div2"></div>
   </section>
 
-  <!--news section-->
+  <!-- NEWS SECTION -->
   <section class="news-section">
+    <h2 class="news-title">Latest News</h2>
 
-  <h2 class="news-title">Latest News</h2>
-
-  <div class="news-container">
-
-    <!-- CARD 1 -->
-    <div class="news-card">
-      <img src="./image2/blog1.jpg" alt="truck">
-      <p class="date">June 26, 2021</p>
-      <h3>Freight Transport in Alaska: The Haul of the Wild</h3>
-    </div>
-
-    <!-- CARD 2 -->
-    <div class="news-card">
-      <img src="./image2/blog2.jpg" alt="truck">
-      <p class="date">June 26, 2021</p>
-      <h3>Delivery Your Stuff Quickly For Minimum: Cost Of Price</h3>
-    </div>
-
-    <!-- CARD 3 -->
-    <div class="news-card">
-      <img src="./image2/blog3.jpg" alt="truck">
-      <p class="date">June 26, 2021</p>
-      <h3>Perishable Logistics: Cold Chain on a Plane</h3>
-    </div>
-
-  </div>
-
-</section>
-
-<!--brand section-->
-<section class="brand_section">
-  <div class="brand_div">
-    <p><img src="./image2/left-arrow-angle-big-gross-symbol.png" alt=""></p>
-    <p><img src="./image2/brand1.png" alt=""></p>
-    <p><img src="./image2/brand2.png" alt=""></p>
-    <p><img src="./image2/brand3.png" alt=""></p>
-    <p><img src="./image2/brand4.png" alt=""></p>
-    <p><img src="./image2/brand2.png" alt=""></p>
-    <p><img src="./image2/arrow-angle-pointing-to-right.png" alt=""></p>
-  </div>
-</section>
-
-<!--footer section-->
-<footer class="footer">
-
-  <div class="footer-container">
-
-    <!-- LOGO -->
-    <div class="footer-col logo-col">
-      <img src="./image2/logo.png" alt="">
-    </div>
-
-    <!-- QUICK LINKS -->
-    <div class="footer-col">
-      <h4>Quick Links</h4>
-      <a href="#">Work</a>
-      <a href="#">Services</a>
-      <a href="#">Products</a>
-      <a href="#">Tips & Tricks</a>
-    </div>
-
-    <!-- SOLUTION -->
-    <div class="footer-col">
-      <h4>Solution</h4>
-      <a href="#">Air freight</a>
-      <a href="#">Ocean freight</a>
-      <a href="#">Large projects</a>
-    </div>
-
-    <!-- SUPPORT -->
-    <div class="footer-col">
-      <h4>Support</h4>
-      <a href="#">FAQ</a>
-      <a href="#">Submit Ticket</a>
-      <a href="#">Contact Us</a>
-    </div>
-
-    <!-- NEWSLETTER -->
-    <div class="footer-col newsletter">
-      <h4>Newsletter</h4>
-      <p>Subscribe newsletter to get updates.</p>
-
-      <div class="newsletter-box">
-        <input type="email" placeholder="Enter your email">
-        <button>➤</button>
+    <div class="news-container">
+      <div class="news-card">
+        <img src="./image2/blog1.jpg" alt="truck">
+        <p class="date">June 26, 2021</p>
+        <h3>Freight Transport in Alaska: The Haul of the Wild</h3>
       </div>
 
-      <div class="socials">
-       <img src="./image2/facebook (1).png" alt="">
-        <img src="./image2/instagram.png" alt="">
-        <img src="./image2/linkedin.png" alt="">
-        <img src="./image2/youtube.png" alt="">
+      <div class="news-card">
+        <img src="./image2/blog2.jpg" alt="truck">
+        <p class="date">June 26, 2021</p>
+        <h3>Delivery Your Stuff Quickly For Minimum: Cost Of Price</h3>
+      </div>
+
+      <div class="news-card">
+        <img src="./image2/blog3.jpg" alt="truck">
+        <p class="date">June 26, 2021</p>
+        <h3>Perishable Logistics: Cold Chain on a Plane</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- BRAND SECTION -->
+  <section class="brand_section">
+    <div class="brand_div">
+      <p><img src="./image2/left-arrow-angle-big-gross-symbol.png" alt="left arrow"></p>
+      <p><img src="./image2/brand1.png" alt="brand1"></p>
+      <p><img src="./image2/brand2.png" alt="brand2"></p>
+      <p><img src="./image2/brand3.png" alt="brand3"></p>
+      <p><img src="./image2/brand4.png" alt="brand4"></p>
+      <p><img src="./image2/brand2.png" alt="brand2"></p>
+      <p><img src="./image2/arrow-angle-pointing-to-right.png" alt="right arrow"></p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-col logo-col">
+        <img src="./image2/logo.png" alt="logo">
+      </div>
+
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <a href="#">Work</a>
+        <a href="#">Services</a>
+        <a href="#">Products</a>
+        <a href="#">Tips & Tricks</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Solution</h4>
+        <a href="#">Air freight</a>
+        <a href="#">Ocean freight</a>
+        <a href="#">Large projects</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Support</h4>
+        <a href="#">FAQ</a>
+        <a href="#">Submit Ticket</a>
+        <a href="#">Contact Us</a>
+      </div>
+
+      <div class="footer-col newsletter">
+        <h4>Newsletter</h4>
+        <p>Subscribe newsletter to get updates.</p>
+
+        <div class="newsletter-box">
+          <input type="email" placeholder="Enter your email">
+          <button>➤</button>
+        </div>
+
+        <div class="socials">
+          <img src="./image2/facebook (1).png" alt="facebook">
+          <img src="./image2/instagram.png" alt="instagram">
+          <img src="./image2/linkedin.png" alt="linkedin">
+          <img src="./image2/youtube.png" alt="youtube">
+        </div>
       </div>
     </div>
 
-  </div>
-
-  <!-- BOTTOM -->
-  <div class="footer-bottom">
-    <p>
-      Copyright ©2026 All rights reserved | This template is made with <span class="colorlib">❤</span> by <span class="colorlib">Colorlib</span>
-    </p>
-  </div>
-
-</footer>
+    <div class="footer-bottom">
+      <p>
+        Copyright ©2026 All rights reserved | This template is made with
+        <span class="colorlib">❤</span> by <span class="colorlib">Colorlib</span>
+      </p>
+    </div>
+  </footer>
 
 </body>
 </html>
